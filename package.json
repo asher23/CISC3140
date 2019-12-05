@@ -1,0 +1,27 @@
+{
+  "name": "CISC3140",
+  "version": "1.0.0",
+  "description": "This is the read me file for CISC 3140.",
+  "main": "assignment4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asher23/CISC3140.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asher23/CISC3140/issues"
+  },
+  "homepage": "https://github.com/asher23/CISC3140#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
