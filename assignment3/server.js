@@ -9,6 +9,6 @@ console.log(" u got here");
 var connect = require("connect");
 var serverStatic = require("serve-static");
 
-connect().use(serverStatic(__dirname)).listen(8080, function() {
+connect().use(serverStatic(__dirname)).listen(process.env.PORT || 8080, function() {
     console.log("Server running on port 8080...")
 });
