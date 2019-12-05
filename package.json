@@ -5,7 +5,7 @@
   "main": "assignment4.js",
   "scripts": {
     "test": "echo \"NO tests specified so all tests should pass\" && exit 0",
-    "start": "webpack-dev-server"
+    "start": "node assignment3/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/asher23/CISC3140#readme",
   "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1",
     "webpack": "^4.41.2",
     "webpack-dev-server": "^3.9.0"
   },
