@@ -12,6 +12,38 @@
         I also added the ID column in the excel file. 
 */
 
+/* THIS IS THE INPUT WITH THE RESPONSE AS WELL
+
+Abrars-Air:Desktop abrarsher$ sqlite3 webApp.db
+SQLite version 3.16.0 2016-11-04 19:09:39
+Enter ".help" for usage hints.
+sqlite> .mode csv
+
+sqlite> CREATE TABLE feedback(
+   ...>    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+   ...>   "Timestamp" DATETIME,
+   ...>   "Presentation was well organized" INT,
+   ...>   "Speaker spoke clearly and was easy to understand." INT,
+   ...>   "Presenter was enthusiastic about the topic." INT,
+   ...>   "I learned something new today" INT,
+   ...>   "What was something new you learned from this presentation that you didn't know before?" TEXT,
+   ...>   "What worked well for the presentation/presenter?" TEXT,
+   ...>   "Suggestions for improvement. What are some changes would you advise the presenter to make their presentation more effective?" TEXT,
+   ...>   "Additional comments for the speaker" TEXT
+   ...> );
+sqlite> 
+sqlite> .import /Users/abrarsher/downloads/9513.csv feedback
+sqlite> 
+sqlite> SELECT AVG("Presentation was well organized"), AVG("Speaker spoke clearly and was easy to understand."), AVG("Presenter was enthusiastic about the topic."), AVG("I learned something new today") FROM feedback;
+4.69565217391304,4.34782608695652,4.8695652173913,4.69565217391304
+sqlite> 
+sqlite> SELECT MIN("Presentation was well organized"), MIN("Speaker spoke clearly and was easy to understand."), MIN("Presenter was enthusiastic about the topic."), MIN("I learned something new today") FROM feedback;
+4,3,4,3
+sqlite> 
+sqlite> SELECT MAX("Presentation was well organized"), MAX("Speaker spoke clearly and was easy to understand."), MAX("Presenter was enthusiastic about the topic."), MAX("I learned something new today") FROM feedback;
+5,5,5,5
+
+*/
 .mode csv
 
 CREATE TABLE feedback(
