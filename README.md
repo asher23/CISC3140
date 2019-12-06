@@ -81,4 +81,16 @@ All class projects will be in this repository.
         Just type in make and it will compile and run the java code.
 
 
-deplpoyed to cisc3140.herokuapp.com
+*ASSIGNMENT 8 TRAVIS*
+
+    ASSIGNMENT 8 IS THE TRAVIS FILE IN THIS REPOSITORY. 
+    I'M USING ASSIGNMENT 3 TO DEPLOY IT.
+
+    THE URL FOR THE DEPLOYED WEBSITE IS CISC3140.HEROKUAPP.COM
+
+    THE TRAVIS FILE SIMPLY RUNS A TEST (It runs npm test) BEFORE MAKING PULL REQUESTS FROM ANOTHER BRANCH TO THE MASTER BRANCH.
+    CURRENTLY, I SET THE TEST TO JUST LOG THAT THERE ARE NO TESTS AND PASS ANY PULL REQUESTS BY EXITTING WITH 0.
+
+    Deployed to cisc3140.herokuapp.com
+
+
