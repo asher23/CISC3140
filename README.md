@@ -4,7 +4,8 @@ All class projects will be in this repository.
 
 
 
-*ASSIGNMENT 6*
+*ASSIGNMENT 6 SEE ASSIGNMENT 6 FOLDER*
+
     /* 
         These are all the SQL commands I typed into the terminal.
         Just to make sure, I dropped the database, ran all these commands again
@@ -58,7 +59,7 @@ All class projects will be in this repository.
 
 
 
-*ASSIGNMENT 7*
+*ASSIGNMENT 7 SEE ASSIGNMENT 7 FOLDER*
     SVN
 
     =======
@@ -81,7 +82,7 @@ All class projects will be in this repository.
         Just type in make and it will compile and run the java code.
 
 
-*ASSIGNMENT 8 TRAVIS*
+*ASSIGNMENT 8 TRAVIS SEE ASSIGNMENT 8.MD*
 
     ASSIGNMENT 8 IS THE TRAVIS FILE IN THIS REPOSITORY. 
     I'M USING ASSIGNMENT 3 TO DEPLOY IT.
