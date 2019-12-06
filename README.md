@@ -60,6 +60,9 @@ All class projects will be in this repository.
 
 *ASSIGNMENT 7*
     SVN
+
+    =======
+
     - mkdir /Users/abrarsher/documents/svnrep
     - cd /Users/abrarsher/documents/svnrep
     - svnadmin create project1
@@ -76,3 +79,6 @@ All class projects will be in this repository.
         (Since I already had a repository set up)
     MAKE
         Just type in make and it will compile and run the java code.
+
+
+deplpoyed to cisc3140.herokuapp.com
